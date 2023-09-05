@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background:aquamarine;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+label{
+    color:blueviolet;
+    font-size: 17px;
+}
+#firstname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#lastname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#password1{
+    width:300px;
+    min-height:30px;
+    border:none;
+    border-radius:3px ;
+    padding: left 8px; 
+}
+#password2{
+    width:300px;
+    min-height:30px;
+    border:none;
+    border-radius:3px ;
+    padding: left 8px; 
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float: right;
+    background-color: grey;
+}
+@media screen  and (min_width:320px) and(max_width:480px){
+    body{
+        background-color: aqua;
+    }
+}
+    
+
+
+</style>
+
+
+
+</head>
+<body><h2>create account</h2><br>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b>first name
+        </b>
+        </label>
+        <input type="text" name="first name" id="firstname" placeholder="enter here">
+        <br><br>
+        <label><b>lastname
+        </b>
+        </label>
+        <input type="lastname" name="last" id="lastname" placeholder="enter here">
+        <br><br>
+        <label><b>create password</b></label><input type="text" id="password1" placeholder="enter"><br><br>
+        <label><b> confrim password</b></label><input type="text" id="password2" placeholder="enter"><br><br>
+        <a href="ass1.html">
+         <input type="button" name="log" id="log" value="create account"></a>
+        <br><br>    
+    
+</body>
+</html>
