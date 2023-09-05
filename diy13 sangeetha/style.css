@@ -1,0 +1,201 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: right;
+    background-color: transparent;
+   
+    
+    
+}
+.login{
+    background-color: transparent;
+    color:black;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+.createButton{
+    background-color: transparent;
+    color:black;
+    border: 1px solid blue;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    }
+    
+
+.homeimage{
+    height: 450px;
+    width: 100%;
+}
+.topsection{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 90px;
+    letter-spacing: normal;
+    color: red;
+}
+.headertext{
+    height: 50px;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color:black;
+    margin-top: 30px;
+}
+.searchoptions{
+    margin-top: 40px;
+}
+.locationbutton{
+    width: 230px;
+    height: 45px;
+    margin: 0 25px 0 0;
+    padding: 10px;
+    background-color:aliceblue;
+    font-size: 10px;
+}
+.searchbox{
+    position: relative;
+    width: 100px;
+}
+.searchicon{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.searchinput{
+    width: 477px;
+    height: 45px;
+    margin: 0 0 0 21px;
+    padding: 10px;
+    background-color:aliceblue;
+    padding-left: 30px;
+    font-size: 10px;
+}
+
+.bottomsection{
+    margin: 50px 80px 80px 80px;
+
+}
+.qs-heading{
+    height: 43px;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+    
+}
+
+.qs-boxes-container{
+    margin-top: 30px;
+    
+
+}
+.qs-box{
+    display: inline-block;
+    
+    box-shadow: 5px 8px 10px 0px black;
+    margin: 40px;
+    
+}
+.qs-box-contents{
+    height: 160px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.qs-image{
+    width: 165px;
+    height: 180px;
+    margin: auto;
+
+}
+.qs-item-heading{
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-family: poppins;
+    font-size: 18px ;
+    font-weight: 600 ;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+
+
+}
+.qs-item-description{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    max-width: 190px;
+    font-family: poppins;
+    font-size: 14px ;
+    font-weight: normal ;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: gray;
+}
+.subheading{
+    color: gray;
+}
+/* @media (max-width: 1136px){
+    .qs-item-description{
+        max-width: 150px;
+        left: 170px;
+        top: 30px;
+    }
+    .qs-item-heading{
+        left: 170px;
+    }
+}
+@media (max-width: 920px){
+    .qs-box{
+        width: 49%;
+    }
+    .qs-item-description{
+        width: 140px;
+        left: 180px;
+        top: 50px;
+    }
+    .qs-heading{
+        left: 180px;
+    }
+} */
